@@ -4,4 +4,10 @@
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=185319650]
 
+<<<<<<< Updated upstream
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D" unique_id=2061515274]
+=======
+[node name="Container" type="Container" parent="." unique_id=1722225455]
+offset_right = 40.0
+offset_bottom = 40.0
+>>>>>>> Stashed changes
