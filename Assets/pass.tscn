@@ -1,3 +1,7 @@
 [gd_scene format=3 uid="uid://c3vjfeehewoyj"]
 
 [node name="Pass" type="Node2D" unique_id=595004805]
+
+[node name="Node" type="Node" parent="." unique_id=1079125041]
+
+[node name="Node2D" type="Node2D" parent="." unique_id=611441386]
