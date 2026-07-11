@@ -1,5 +1,0 @@
-[gd_scene format=3 uid="uid://dn2l86luf62jv"]
-
-[node name="Node2D" type="Node2D" unique_id=1740323515]
-
-[node name="CPUParticles2D" type="CPUParticles2D" parent="." unique_id=1572281102]
