@@ -3,3 +3,5 @@
 [node name="Node2D" type="Node2D" unique_id=1846006494]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=185319650]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D" unique_id=2061515274]
