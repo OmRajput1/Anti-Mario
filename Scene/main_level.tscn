@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://bdywl1ichrq52" path="res://Scene/lavarod.tscn" id="7_orc0r"]
 [ext_resource type="PackedScene" uid="uid://b0xu2e7wahydu" path="res://Scene/fireball.tscn" id="8_d1qai"]
 [ext_resource type="PackedScene" uid="uid://dy5r2evaxt2yp" path="res://Scene/moving_platform.tscn" id="10_h2fhx"]
+[ext_resource type="PackedScene" uid="uid://cfa36equ3yqsw" path="res://Scene/enemies.tscn" id="11_7fj4n"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_40ul6"]
 
@@ -981,5 +982,5 @@ position = Vector2(-31, 55)
 libraries/ = SubResource("AnimationLibrary_mn4nw")
 autoplay = &"platform2"
 
-[node name="lavarod" parent="platform/moving platform2" unique_id=833208182 instance=ExtResource("7_orc0r")]
-position = Vector2(143, -64)
+[node name="enemies" parent="." unique_id=1376276775 instance=ExtResource("11_7fj4n")]
+position = Vector2(384, 40)
