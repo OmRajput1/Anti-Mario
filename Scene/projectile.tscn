@@ -1,7 +1,14 @@
+<<<<<<< Updated upstream
 [gd_scene format=3 uid="uid://ihsoxjleplae"]
 
 [ext_resource type="Texture2D" uid="uid://3mwumyyfvykv" path="res://Assets/enemies.png" id="1_ak2ol"]
 [ext_resource type="Script" uid="uid://32s1aibq7eog" path="res://Scripts/projectile.gd" id="1_yqtq8"]
+=======
+[gd_scene format=3 uid="uid://bqourpeadrumv"]
+
+[ext_resource type="Texture2D" uid="uid://3mwumyyfvykv" path="res://Assets/enemies.png" id="1_ak2ol"]
+[ext_resource type="Script" path="res://Scripts/projectile.gd" id="1_yqtq8"]
+>>>>>>> Stashed changes
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yqtq8"]
 atlas = ExtResource("1_ak2ol")

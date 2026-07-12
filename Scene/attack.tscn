@@ -1,7 +1,14 @@
+<<<<<<< Updated upstream
 [gd_scene format=3 uid="uid://kamksmw2ka73"]
 
 [ext_resource type="PackedScene" uid="uid://i8vaf5dabevh" path="res://Scene/bouser.tscn" id="1_nkpqq"]
 [ext_resource type="PackedScene" uid="uid://ihsoxjleplae" path="res://Scene/projectile.tscn" id="2_mdkvg"]
+=======
+[gd_scene format=3 uid="uid://cfmpwhqndlp8k"]
+
+[ext_resource type="PackedScene" uid="uid://i8vaf5dabevh" path="res://Scene/bouser.tscn" id="1_nkpqq"]
+[ext_resource type="PackedScene" uid="uid://bqourpeadrumv" path="res://Scene/projectile.tscn" id="2_mdkvg"]
+>>>>>>> Stashed changes
 
 [node name="attack" type="Node2D" unique_id=72181578]
 

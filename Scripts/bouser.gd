@@ -1,7 +1,10 @@
 extends CharacterBody2D
 
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
+<<<<<<< Updated upstream
 @onready var main = get_tree().get_root().get_node("attack")
+=======
+>>>>>>> Stashed changes
 @onready var projectile = load("res://Scene/projectile.tscn")
 
 const SPEED = 150.0
