@@ -29,7 +29,7 @@ shape = SubResource("WorldBoundaryShape2D_40ul6")
 [node name="TileMap" parent="." unique_id=1784250405 instance=ExtResource("2_bhu08")]
 light_mask = 513
 visibility_layer = 513
-layer_0/tile_data = PackedInt32Array(327666, 65536, 4, 327667, 65536, 4, 327668, 65536, 4, 327669, 65536, 4, 327670, 65536, 4, 327671, 65536, 4, 327672, 65536, 4, -262158, 65536, 4, -262157, 65536, 4, -262156, 65536, 4, -262155, 65536, 4, -262154, 65536, 4, -262153, 65536, 4, -262152, 65536, 4, -262151, 65536, 4, -262150, 65536, 4, -262149, 65536, 4, -262148, 65536, 4, -262147, 65536, 4, -262146, 65536, 4, -262145, 65536, 4, -327680, 65536, 4, -327679, 65536, 4, -327678, 65536, 4, -327677, 65536, 4, -327676, 65536, 4, -327675, 65536, 4, -327674, 65536, 4, -196615, 65536, 4, -131079, 65536, 4, -65543, 65536, 4, -65542, 65536, 4, -65541, 65536, 4, -131077, 65536, 4, -196613, 65536, 4, -196614, 65536, 4, -131078, 65536, 4, -196612, 65536, 4, -131076, 65536, 4, -65540, 65536, 4, 196604, 65536, 4, -196611, 65536, 4, -131075, 65536, 4, -65539, 65536, 4, -7, 65536, 4, -6, 65536, 4, -5, 65536, 4, 196603, 0, 5, 196605, 0, 5, 65536, 0, 5, 65537, 0, 5, 65538, 0, 5, -65531, 0, 5, -65530, 0, 5, -65529, 0, 5, -65528, 0, 5, -65527, 0, 5, -65526, 0, 5, -65525, 0, 5, -65524, 0, 5, -327673, 0, 5, -327672, 0, 5, -327671, 0, 5, -327670, 0, 5, -327669, 0, 5, -327668, 0, 5, -327667, 0, 5, -327666, 0, 5, -65523, 0, 5, -65522, 0, 5)
+layer_0/tile_data = PackedInt32Array(327666, 65536, 4, 327667, 65536, 4, 327668, 65536, 4, 327669, 65536, 4, 327670, 65536, 4, 327671, 65536, 4, 327672, 65536, 4, -851982, 0, 5, -786446, 0, 5, -720910, 0, 5, -655374, 65536, 4, -851981, 0, 5, -786445, 0, 5, -720909, 0, 5, -655373, 65536, 4, -851980, 0, 5, -786444, 0, 5, -720908, 0, 5, -655372, 65536, 4, -851979, 0, 5, -786443, 0, 5, -720907, 0, 5, -655371, 65536, 4, -851978, 0, 5, -786442, 0, 5, -720906, 0, 5, -655370, 65536, 4, -851977, 0, 5, -786441, 0, 5, -720905, 0, 5, -655369, 65536, 4, -851976, 0, 5, -786440, 0, 5, -720904, 0, 5, -655368, 65536, 4, -851975, 0, 5, -786439, 0, 5, -720903, 0, 5, -655367, 0, 5, -589831, 65536, 4, -524295, 65536, 4, -851974, 0, 5, -786438, 0, 5, -720902, 0, 5, -655366, 0, 5, -589830, 65536, 4, -524294, 65536, 4, -851973, 0, 5, -786437, 0, 5, -720901, 0, 5, -655365, 0, 5, -589829, 65536, 4, -524293, 65536, 4, -851972, 0, 5, -786436, 0, 5, -720900, 0, 5, -655364, 0, 5, -589828, 65536, 4, -524292, 65536, 4, -851971, 0, 5, -786435, 0, 5, -720899, 0, 5, -655363, 0, 5, -589827, 65536, 4, -524291, 65536, 4, -851970, 0, 5, -786434, 0, 5, -720898, 0, 5, -655362, 0, 5, -851969, 0, 5, -786433, 0, 5, -720897, 0, 5, -655361, 65536, 4, -917504, 0, 5, -851968, 0, 5, -786432, 0, 5, -720896, 65536, 4, -917503, 0, 5, -851967, 0, 5, -786431, 0, 5, -720895, 65536, 4, -917502, 0, 5, -851966, 0, 5, -786430, 0, 5, -720894, 65536, 4, -917501, 0, 5, -851965, 0, 5, -786429, 0, 5, -720893, 65536, 4, -917500, 0, 5, -851964, 0, 5, -786428, 0, 5, -720892, 65536, 4, -917499, 0, 5, -851963, 0, 5, -786427, 0, 5, -720891, 65536, 4, -917498, 0, 5, -851962, 0, 5, -786426, 0, 5, -720890, 65536, 4, -917497, 0, 5, -851961, 0, 5, -786425, 0, 5, -720889, 0, 5, -917496, 0, 5, -851960, 0, 5, -786424, 0, 5, -720888, 0, 5, -917495, 0, 5, -851959, 0, 5, -786423, 0, 5, -720887, 0, 5, -917494, 0, 5, -851958, 0, 5, -786422, 0, 5, -720886, 0, 5, -917493, 0, 5, -851957, 0, 5, -786421, 0, 5, -720885, 0, 5, -917492, 0, 5, -851956, 0, 5, -786420, 0, 5, -720884, 0, 5, -917491, 0, 5, -851955, 0, 5, -786419, 0, 5, -720883, 0, 5, -917490, 0, 5, -851954, 0, 5, -786418, 0, 5, -720882, 0, 5, -917489, 0, 5, -851953, 0, 5, -786417, 0, 5, -720881, 0, 5, -917488, 0, 5, -851952, 0, 5, -786416, 0, 5, -720880, 0, 5, -917487, 0, 5, -851951, 0, 5, -786415, 0, 5, -720879, 0, 5, -917486, 0, 5, -851950, 0, 5, -786414, 0, 5, -720878, 0, 5, -917485, 0, 5, -851949, 0, 5, -786413, 0, 5, -720877, 0, 5, -917484, 0, 5, -851948, 0, 5, -786412, 0, 5, -720876, 0, 5, -917483, 0, 5, -851947, 0, 5, -786411, 0, 5, -720875, 0, 5, -917482, 0, 5, -851946, 0, 5, -786410, 0, 5, -720874, 0, 5, -917481, 0, 5, -851945, 0, 5, -786409, 0, 5, -720873, 0, 5, -917480, 0, 5, -851944, 0, 5, -786408, 0, 5, -720872, 0, 5, -458759, 0, 5, -393223, 0, 5, -327687, 0, 5, -262151, 0, 5, -262150, 0, 5, -262149, 0, 5, -262148, 0, 5, -262147, 0, 5, -327683, 0, 5, -393219, 0, 5, -458755, 0, 5, -393220, 0, 5, -458756, 0, 5, -458757, 0, 5, -458758, 0, 5, -393222, 0, 5, -327685, 0, 5, -327684, 0, 5, -393221, 0, 5, -327686, 0, 5, -5, 0, 5, -4, 0, 5, -3, 0, 5, -196608, 0, 5, -196607, 0, 5, -196606, 0, 5, -393209, 0, 5, -393208, 0, 5, -393207, 0, 5, -393206, 0, 5, -393205, 0, 5, -393204, 0, 5, -393203, 0, 5, -393202, 0, 5, -393201, 0, 5, -393200, 0, 5, -393199, 0, 5, -393198, 0, 5, -393197, 0, 5, -393196, 0, 5, -393195, 0, 5, -393194, 0, 5, -131044, 0, 5, -65508, 0, 5, 28, 0, 5, 65564, 0, 5, 131100, 0, 5, -131043, 0, 5, -65507, 0, 5, 29, 0, 5, 65565, 0, 5, 131101, 0, 5, 262172, 0, 5, 327708, 0, 5, -131047, 0, 5, -65511, 0, 5, 25, 0, 5, 65561, 0, 5, 131097, 0, 5, 131099, 0, 5, 65563, 0, 5, 27, 0, 5, -65509, 0, 5, -131045, 0, 5, -131046, 0, 5, -65510, 0, 5, 26, 0, 5, 65562, 0, 5, 131098, 0, 5, 196633, 0, 5, 196634, 0, 5, 196635, 0, 5, 196636, 0, 5, 196637, 0, 5, -393189, 0, 4)
 
 [node name="world border" parent="." unique_id=1662894229 instance=ExtResource("3_05as6")]
 position = Vector2(-215, 62)
@@ -38,5 +38,193 @@ rotation = 1.5842116
 [node name="background" parent="." unique_id=235413804 instance=ExtResource("2_1uui5")]
 layer = -20
 
-[node name="lava" parent="." unique_id=2126996096 instance=ExtResource("5_2xk1g")]
+[node name="lava22" type="Node2D" parent="." unique_id=1288986567]
+
+[node name="lava" parent="lava22" unique_id=2126996096 instance=ExtResource("5_2xk1g")]
 position = Vector2(-104, 79)
+
+[node name="lava2" parent="lava22" unique_id=1513463378 instance=ExtResource("5_2xk1g")]
+position = Vector2(-88, 79)
+
+[node name="lava3" parent="lava22" unique_id=595810927 instance=ExtResource("5_2xk1g")]
+position = Vector2(-72, 79)
+
+[node name="lava4" parent="lava22" unique_id=1427360896 instance=ExtResource("5_2xk1g")]
+position = Vector2(-56, 79)
+
+[node name="lava5" parent="lava22" unique_id=957067913 instance=ExtResource("5_2xk1g")]
+position = Vector2(-40, 79)
+
+[node name="lava6" parent="lava22" unique_id=1933467286 instance=ExtResource("5_2xk1g")]
+position = Vector2(-24, 79)
+
+[node name="lava7" parent="lava22" unique_id=656903962 instance=ExtResource("5_2xk1g")]
+position = Vector2(-8, 79)
+
+[node name="lava8" parent="lava22" unique_id=1092258621 instance=ExtResource("5_2xk1g")]
+position = Vector2(8, 79)
+
+[node name="lava9" parent="lava22" unique_id=260627034 instance=ExtResource("5_2xk1g")]
+position = Vector2(24, 79)
+
+[node name="lava10" parent="lava22" unique_id=520538353 instance=ExtResource("5_2xk1g")]
+position = Vector2(40, 79)
+
+[node name="lava11" parent="lava22" unique_id=655064436 instance=ExtResource("5_2xk1g")]
+position = Vector2(56, 79)
+
+[node name="lava12" parent="lava22" unique_id=1757693693 instance=ExtResource("5_2xk1g")]
+position = Vector2(72, 79)
+
+[node name="lava13" parent="lava22" unique_id=1345683613 instance=ExtResource("5_2xk1g")]
+position = Vector2(88, 79)
+
+[node name="lava14" parent="lava22" unique_id=1869041801 instance=ExtResource("5_2xk1g")]
+position = Vector2(104, 79)
+
+[node name="lava15" parent="lava22" unique_id=48293957 instance=ExtResource("5_2xk1g")]
+position = Vector2(120, 79)
+
+[node name="lava16" parent="lava22" unique_id=1625203425 instance=ExtResource("5_2xk1g")]
+position = Vector2(136, 79)
+
+[node name="lava17" parent="lava22" unique_id=1535463256 instance=ExtResource("5_2xk1g")]
+position = Vector2(152, 79)
+
+[node name="lava18" parent="lava22" unique_id=2089265117 instance=ExtResource("5_2xk1g")]
+position = Vector2(168, 79)
+
+[node name="lava19" parent="lava22" unique_id=1139308912 instance=ExtResource("5_2xk1g")]
+position = Vector2(184, 79)
+
+[node name="lava20" parent="lava22" unique_id=561460474 instance=ExtResource("5_2xk1g")]
+position = Vector2(200, 79)
+
+[node name="lava21" parent="lava22" unique_id=1556911244 instance=ExtResource("5_2xk1g")]
+position = Vector2(216, 79)
+
+[node name="lava22" parent="lava22" unique_id=72948574 instance=ExtResource("5_2xk1g")]
+position = Vector2(232, 79)
+
+[node name="lava23" parent="lava22" unique_id=582293197 instance=ExtResource("5_2xk1g")]
+position = Vector2(248, 79)
+
+[node name="lava24" parent="lava22" unique_id=109477136 instance=ExtResource("5_2xk1g")]
+position = Vector2(264, 79)
+
+[node name="lava25" parent="lava22" unique_id=1495690229 instance=ExtResource("5_2xk1g")]
+position = Vector2(280, 79)
+
+[node name="lava26" parent="lava22" unique_id=132238653 instance=ExtResource("5_2xk1g")]
+position = Vector2(296, 79)
+
+[node name="lava27" parent="lava22" unique_id=135009881 instance=ExtResource("5_2xk1g")]
+position = Vector2(312, 79)
+
+[node name="lava28" parent="lava22" unique_id=1850009566 instance=ExtResource("5_2xk1g")]
+position = Vector2(328, 79)
+
+[node name="lava29" parent="lava22" unique_id=482039744 instance=ExtResource("5_2xk1g")]
+position = Vector2(344, 79)
+
+[node name="lava30" parent="lava22" unique_id=1376979961 instance=ExtResource("5_2xk1g")]
+position = Vector2(360, 79)
+
+[node name="lava31" parent="lava22" unique_id=1213804510 instance=ExtResource("5_2xk1g")]
+position = Vector2(376, 79)
+
+[node name="lava32" parent="lava22" unique_id=569715453 instance=ExtResource("5_2xk1g")]
+position = Vector2(392, 79)
+
+[node name="lava33" parent="lava22" unique_id=423817731 instance=ExtResource("5_2xk1g")]
+position = Vector2(408, 79)
+
+[node name="lava34" parent="lava22" unique_id=38972318 instance=ExtResource("5_2xk1g")]
+position = Vector2(424, 79)
+
+[node name="lava35" parent="lava22" unique_id=1541210415 instance=ExtResource("5_2xk1g")]
+position = Vector2(440, 79)
+
+[node name="lava36" parent="lava22" unique_id=1531117346 instance=ExtResource("5_2xk1g")]
+position = Vector2(456, 79)
+
+[node name="lava37" parent="lava22" unique_id=1617093576 instance=ExtResource("5_2xk1g")]
+position = Vector2(472, 79)
+
+[node name="lava38" parent="lava22" unique_id=1779544268 instance=ExtResource("5_2xk1g")]
+position = Vector2(488, 79)
+
+[node name="lava39" parent="lava22" unique_id=90903035 instance=ExtResource("5_2xk1g")]
+position = Vector2(504, 79)
+
+[node name="lava40" parent="lava22" unique_id=1074156465 instance=ExtResource("5_2xk1g")]
+position = Vector2(520, 79)
+
+[node name="lava41" parent="lava22" unique_id=401234416 instance=ExtResource("5_2xk1g")]
+position = Vector2(536, 79)
+
+[node name="lava42" parent="lava22" unique_id=971081414 instance=ExtResource("5_2xk1g")]
+position = Vector2(552, 79)
+
+[node name="lava43" parent="lava22" unique_id=1678559176 instance=ExtResource("5_2xk1g")]
+position = Vector2(570, 80)
+
+[node name="lava44" parent="lava22" unique_id=1005660001 instance=ExtResource("5_2xk1g")]
+position = Vector2(586, 80)
+
+[node name="lava45" parent="lava22" unique_id=34442485 instance=ExtResource("5_2xk1g")]
+position = Vector2(602, 80)
+
+[node name="lava46" parent="lava22" unique_id=1999800421 instance=ExtResource("5_2xk1g")]
+position = Vector2(618, 80)
+
+[node name="lava47" parent="lava22" unique_id=874326104 instance=ExtResource("5_2xk1g")]
+position = Vector2(634, 80)
+
+[node name="lava48" parent="lava22" unique_id=1549158287 instance=ExtResource("5_2xk1g")]
+position = Vector2(650, 80)
+
+[node name="lava49" parent="lava22" unique_id=472031765 instance=ExtResource("5_2xk1g")]
+position = Vector2(666, 80)
+
+[node name="lava50" parent="lava22" unique_id=1598010739 instance=ExtResource("5_2xk1g")]
+position = Vector2(682, 80)
+
+[node name="lava51" parent="lava22" unique_id=696398278 instance=ExtResource("5_2xk1g")]
+position = Vector2(698, 80)
+
+[node name="lava52" parent="lava22" unique_id=494108937 instance=ExtResource("5_2xk1g")]
+position = Vector2(714, 80)
+
+[node name="lava53" parent="lava22" unique_id=684307193 instance=ExtResource("5_2xk1g")]
+position = Vector2(730, 80)
+
+[node name="lava54" parent="lava22" unique_id=1826981537 instance=ExtResource("5_2xk1g")]
+position = Vector2(746, 80)
+
+[node name="lava55" parent="lava22" unique_id=442818503 instance=ExtResource("5_2xk1g")]
+position = Vector2(762, 80)
+
+[node name="lava56" parent="lava22" unique_id=1056494199 instance=ExtResource("5_2xk1g")]
+position = Vector2(778, 80)
+
+[node name="lava57" parent="lava22" unique_id=1175959800 instance=ExtResource("5_2xk1g")]
+position = Vector2(794, 80)
+
+[node name="lava58" parent="lava22" unique_id=930989309 instance=ExtResource("5_2xk1g")]
+position = Vector2(810, 80)
+
+[node name="lava59" parent="lava22" unique_id=2093667809 instance=ExtResource("5_2xk1g")]
+position = Vector2(826, 80)
+
+[node name="lava60" parent="lava22" unique_id=1803129962 instance=ExtResource("5_2xk1g")]
+position = Vector2(842, 80)
+
+[node name="lava61" parent="lava22" unique_id=2034954454 instance=ExtResource("5_2xk1g")]
+position = Vector2(858, 80)
+
+[node name="lava62" parent="lava22" unique_id=20333570 instance=ExtResource("5_2xk1g")]
+position = Vector2(874, 80)
+
+[node name="lava63" parent="lava22" unique_id=504237649 instance=ExtResource("5_2xk1g")]
+position = Vector2(890, 80)
