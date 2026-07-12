@@ -1,13 +1,17 @@
 [gd_scene format=3 uid="uid://cfnnv0ajomenr"]
 
 [ext_resource type="Script" uid="uid://mfyh5y7c3bra" path="res://Scripts/killzone.gd" id="1_d0lq1"]
+[ext_resource type="AudioStream" uid="uid://c737hh0w1m217" path="res://Assets/Super Mario Bros (NES) Music - Game Over 1.mp3" id="2_xwbl4"]
 
 [node name="killzone" type="Area2D" unique_id=1116529582]
 collision_mask = 2
 script = ExtResource("1_d0lq1")
 
 [node name="Timer" type="Timer" parent="." unique_id=1456526652]
-wait_time = 0.6
+wait_time = 5.0
+
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="." unique_id=1553387137]
+stream = ExtResource("2_xwbl4")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

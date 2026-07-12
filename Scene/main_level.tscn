@@ -309,8 +309,9 @@ position = Vector2(874, 80)
 [node name="lava63" parent="lava22" unique_id=504237649 instance=ExtResource("5_2xk1g")]
 position = Vector2(890, 80)
 
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1304859048]
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1328752787]
 stream = ExtResource("6_uy40e")
+autoplay = true
 
 [node name="lavarod" parent="." unique_id=400059223 instance=ExtResource("7_orc0r")]
 position = Vector2(441, -88)
