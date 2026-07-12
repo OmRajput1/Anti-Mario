@@ -8,5 +8,5 @@ offset_left = -1080.0
 offset_top = -1038.0
 offset_right = -1040.0
 offset_bottom = -998.0
-scale = Vector2(50, 50)
+scale = Vector2(100, 100)
 color = Color(0, 0, 0, 1)

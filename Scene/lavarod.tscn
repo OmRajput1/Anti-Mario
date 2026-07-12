@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://ccwpqun5yg2xj" path="res://Assets/ezgif-split/FireRodSMB-ezgif.com-gif-to-sprite-converter.png" id="1_5huww"]
 [ext_resource type="PackedScene" uid="uid://cfnnv0ajomenr" path="res://Scene/killzone.tscn" id="1_lutq0"]
-[ext_resource type="Script" uid="uid://b7o3feheyatdw" path="res://collision_shape_2d.gd" id="2_lutq0"]
+[ext_resource type="Script" uid="uid://b7o3feheyatdw" path="res://Scripts/collision_shape_2d.gd" id="2_lutq0"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lutq0"]
 atlas = ExtResource("1_5huww")
