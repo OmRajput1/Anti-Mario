@@ -245,6 +245,11 @@ _data = {
 &"mario jump": SubResource("Animation_t6ank")
 }
 
+[sub_resource type="Curve" id="Curve_7fj4n"]
+_data = [Vector2(0, 0.1), 0.0, -0.07131011, 0, 0, Vector2(1, 0.3), 0.030152332, 0.0, 0, 0]
+point_count = 2
+metadata/_snap_enabled = true
+
 [node name="main game" type="Node2D" unique_id=1904942530]
 light_mask = 513
 visibility_layer = 513
@@ -1091,3 +1096,57 @@ scale = Vector2(0.07996094, 0.0799983)
 [node name="AnimationPlayer" type="AnimationPlayer" parent="mario" unique_id=39179308]
 libraries/ = SubResource("AnimationLibrary_vclu1")
 autoplay = &"mario jump"
+
+[node name="green" type="CPUParticles2D" parent="." unique_id=1690301506]
+visible = false
+position = Vector2(3157, 3)
+amount = 16
+explosiveness = 0.6
+randomness = 0.2
+direction = Vector2(0, -1)
+gravity = Vector2(0, 100)
+initial_velocity_min = 65.0
+initial_velocity_max = 200.0
+angular_velocity_min = 280.0
+angular_velocity_max = 280.0
+linear_accel_min = 11.0
+linear_accel_max = 11.0
+scale_amount_max = 20.0
+scale_amount_curve = SubResource("Curve_7fj4n")
+color = Color(0.53408206, 0.9850128, 0, 1)
+
+[node name="red" type="CPUParticles2D" parent="." unique_id=275454201]
+visible = false
+position = Vector2(3007, 2)
+amount = 16
+explosiveness = 0.6
+randomness = 0.2
+direction = Vector2(0, -1)
+gravity = Vector2(0, 100)
+initial_velocity_min = 65.0
+initial_velocity_max = 200.0
+angular_velocity_min = 280.0
+angular_velocity_max = 280.0
+linear_accel_min = 11.0
+linear_accel_max = 11.0
+scale_amount_max = 20.0
+scale_amount_curve = SubResource("Curve_7fj4n")
+color = Color(1, 0, 0.2509804, 1)
+
+[node name="yellow" type="CPUParticles2D" parent="." unique_id=1774186548]
+visible = false
+position = Vector2(2877, 2)
+amount = 16
+explosiveness = 0.6
+randomness = 0.2
+direction = Vector2(0, -1)
+gravity = Vector2(0, 100)
+initial_velocity_min = 65.0
+initial_velocity_max = 200.0
+angular_velocity_min = 280.0
+angular_velocity_max = 280.0
+linear_accel_min = 11.0
+linear_accel_max = 11.0
+scale_amount_max = 20.0
+scale_amount_curve = SubResource("Curve_7fj4n")
+color = Color(0.9559737, 0.8280776, 0, 1)
