@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://bt6rj6hkce66g"]
+
+[ext_resource type="Script" uid="uid://b107ijop33xiu" path="res://Scene/mario.gd" id="1_axpng"]
+[ext_resource type="Texture2D" uid="uid://bpyt1jqen8fiy" path="res://Assets/Gemini_Generated_Image_yqkuubyqkuubyqku-removebg-preview.png" id="1_xspr2"]
+[ext_resource type="Texture2D" uid="uid://1cim4ms3iibk" path="res://Assets/image-removebg-preview_5.png" id="2_ovrtf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ovrtf"]
+atlas = ExtResource("1_xspr2")
+region = Rect2(0, 0, 467, 534)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_axpng"]
+atlas = ExtResource("2_ovrtf")
+region = Rect2(0, 0, 488, 511)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_s4n1h"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ovrtf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_axpng")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 2.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s4n1h"]
+size = Vector2(212, 389)
+
+[node name="mario" type="Area2D" unique_id=70822908]
+script = ExtResource("1_axpng")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1166465093]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=907421043]
+sprite_frames = SubResource("SpriteFrames_s4n1h")
+autoplay = "default"
+frame_progress = 0.8625033
+flip_h = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D/AnimatedSprite2D" unique_id=1513873396]
+position = Vector2(-20, -4)
+shape = SubResource("RectangleShape2D_s4n1h")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
