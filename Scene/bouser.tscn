@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://i8vaf5dabevh"]
+
+[ext_resource type="Script" uid="uid://dtsivr382ybj" path="res://Scripts/bouser.gd" id="1_2m4rv"]
+[ext_resource type="Texture2D" uid="uid://3mwumyyfvykv" path="res://Assets/enemies.png" id="1_pbylh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_paxfc"]
+atlas = ExtResource("1_pbylh")
+region = Rect2(595, 144, 35, 36)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_s4n1h"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_paxfc")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 30.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3vsxv"]
+size = Vector2(25, 28.5)
+
+[node name="Bouser" type="CharacterBody2D" unique_id=977466504]
+collision_mask = 3
+script = ExtResource("1_2m4rv")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1892929117]
+position = Vector2(-2, -3)
+sprite_frames = SubResource("SpriteFrames_s4n1h")
+autoplay = "default"
+frame_progress = 0.26490423
+flip_h = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=288209723]
+position = Vector2(-3, 1)
+shape = SubResource("RectangleShape2D_3vsxv")

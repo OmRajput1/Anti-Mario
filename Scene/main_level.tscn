@@ -1,3 +1,42 @@
-[gd_scene format=3 uid="uid://b57b4hm6s6n7j"]
+[gd_scene format=3 uid="uid://dx0og87p5kkrc"]
 
-[node name="main level" type="Node2D" unique_id=529521704]
+[ext_resource type="PackedScene" uid="uid://i8vaf5dabevh" path="res://Scene/bouser.tscn" id="1_bw3m6"]
+[ext_resource type="PackedScene" uid="uid://di8pi55vchdx" path="res://Scene/background.tscn" id="2_1uui5"]
+[ext_resource type="PackedScene" uid="uid://dqjne18ihwaqe" path="res://Scene/tile_map.tscn" id="2_bhu08"]
+[ext_resource type="PackedScene" uid="uid://bf5nbgvyklbt5" path="res://Scene/world_border.tscn" id="3_05as6"]
+[ext_resource type="PackedScene" uid="uid://dsewkh7dn1bsc" path="res://Scene/lava.tscn" id="5_2xk1g"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_40ul6"]
+
+[node name="main game" type="Node2D" unique_id=1904942530]
+light_mask = 513
+visibility_layer = 513
+
+[node name="Bouser" parent="." unique_id=977466504 instance=ExtResource("1_bw3m6")]
+position = Vector2(-138, 40)
+collision_layer = 3
+
+[node name="Camera2D" type="Camera2D" parent="Bouser" unique_id=330444720]
+position = Vector2(76, -24)
+zoom = Vector2(3.2, 3.2)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1249699064]
+position = Vector2(-30, 81)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1144294023]
+shape = SubResource("WorldBoundaryShape2D_40ul6")
+
+[node name="TileMap" parent="." unique_id=1784250405 instance=ExtResource("2_bhu08")]
+light_mask = 513
+visibility_layer = 513
+layer_0/tile_data = PackedInt32Array(327666, 65536, 4, 327667, 65536, 4, 327668, 65536, 4, 327669, 65536, 4, 327670, 65536, 4, 327671, 65536, 4, 327672, 65536, 4, -262158, 65536, 4, -262157, 65536, 4, -262156, 65536, 4, -262155, 65536, 4, -262154, 65536, 4, -262153, 65536, 4, -262152, 65536, 4, -262151, 65536, 4, -262150, 65536, 4, -262149, 65536, 4, -262148, 65536, 4, -262147, 65536, 4, -262146, 65536, 4, -262145, 65536, 4, -327680, 65536, 4, -327679, 65536, 4, -327678, 65536, 4, -327677, 65536, 4, -327676, 65536, 4, -327675, 65536, 4, -327674, 65536, 4, -196615, 65536, 4, -131079, 65536, 4, -65543, 65536, 4, -65542, 65536, 4, -65541, 65536, 4, -131077, 65536, 4, -196613, 65536, 4, -196614, 65536, 4, -131078, 65536, 4, -196612, 65536, 4, -131076, 65536, 4, -65540, 65536, 4, 196604, 65536, 4, -196611, 65536, 4, -131075, 65536, 4, -65539, 65536, 4, -7, 65536, 4, -6, 65536, 4, -5, 65536, 4, 196603, 0, 5, 196605, 0, 5, 65536, 0, 5, 65537, 0, 5, 65538, 0, 5, -65531, 0, 5, -65530, 0, 5, -65529, 0, 5, -65528, 0, 5, -65527, 0, 5, -65526, 0, 5, -65525, 0, 5, -65524, 0, 5, -327673, 0, 5, -327672, 0, 5, -327671, 0, 5, -327670, 0, 5, -327669, 0, 5, -327668, 0, 5, -327667, 0, 5, -327666, 0, 5, -65523, 0, 5, -65522, 0, 5)
+
+[node name="world border" parent="." unique_id=1662894229 instance=ExtResource("3_05as6")]
+position = Vector2(-215, 62)
+rotation = 1.5842116
+
+[node name="background" parent="." unique_id=235413804 instance=ExtResource("2_1uui5")]
+layer = -20
+
+[node name="lava" parent="." unique_id=2126996096 instance=ExtResource("5_2xk1g")]
+position = Vector2(-104, 79)

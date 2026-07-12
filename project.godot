@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="AUNTY GAMES"
+run/main_scene="uid://dx0og87p5kkrc"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
