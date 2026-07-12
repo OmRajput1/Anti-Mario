@@ -100,6 +100,8 @@ collision_layer = 3
 [node name="Camera2D" type="Camera2D" parent="Bouser" unique_id=330444720]
 position = Vector2(76, -24)
 zoom = Vector2(3.2, 3.2)
+limit_bottom = 97
+position_smoothing_enabled = true
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1249699064]
 position = Vector2(-30, 81)
