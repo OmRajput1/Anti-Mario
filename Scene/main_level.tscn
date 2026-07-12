@@ -168,6 +168,44 @@ _data = {
 &"platform2": SubResource("Animation_qgfg0")
 }
 
+[sub_resource type="Animation" id="Animation_1ge5r"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(184, 5)]
+}
+
+[sub_resource type="Animation" id="Animation_mn4nw"]
+resource_name = "hfireball"
+length = 2.0
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(184, 5), Vector2(32.000015, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_dvgiv"]
+_data = {
+&"RESET": SubResource("Animation_1ge5r"),
+&"hfireball": SubResource("Animation_mn4nw")
+}
+
 [node name="main game" type="Node2D" unique_id=1904942530]
 light_mask = 513
 visibility_layer = 513
@@ -998,3 +1036,11 @@ rotation = 3.1415927
 
 [node name="lavarod7" parent="." unique_id=1723382279 instance=ExtResource("7_orc0r")]
 position = Vector2(2087, -56)
+
+[node name="fireball3" parent="." unique_id=777534419 instance=ExtResource("8_d1qai")]
+position = Vector2(184, 5)
+scale = Vector2(3.5199902, 3.3999999)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="fireball3" unique_id=1430934087]
+libraries/ = SubResource("AnimationLibrary_dvgiv")
+autoplay = &"hfireball"
