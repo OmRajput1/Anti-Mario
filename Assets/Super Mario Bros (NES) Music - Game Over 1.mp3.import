@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c737hh0w1m217"
+path="res://.godot/imported/Super Mario Bros (NES) Music - Game Over 1.mp3-5c8f357e06e3f9d254352f82ea05c713.mp3str"
+
+[deps]
+
+source_file="res://Assets/Super Mario Bros (NES) Music - Game Over 1.mp3"
+dest_files=["res://.godot/imported/Super Mario Bros (NES) Music - Game Over 1.mp3-5c8f357e06e3f9d254352f82ea05c713.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

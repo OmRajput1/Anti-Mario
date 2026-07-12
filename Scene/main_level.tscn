@@ -5,6 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://dqjne18ihwaqe" path="res://Scene/tile_map.tscn" id="2_bhu08"]
 [ext_resource type="PackedScene" uid="uid://bf5nbgvyklbt5" path="res://Scene/world_border.tscn" id="3_05as6"]
 [ext_resource type="PackedScene" uid="uid://dsewkh7dn1bsc" path="res://Scene/lava.tscn" id="5_2xk1g"]
+[ext_resource type="AudioStream" uid="uid://wbm2gua5k0l" path="res://Assets/Super Mario Bros (NES) Music - Hurried Castle.mp3" id="6_uy40e"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_40ul6"]
 
@@ -229,3 +230,6 @@ position = Vector2(874, 80)
 
 [node name="lava63" parent="lava22" unique_id=504237649 instance=ExtResource("5_2xk1g")]
 position = Vector2(890, 80)
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1304859048]
+stream = ExtResource("6_uy40e")
