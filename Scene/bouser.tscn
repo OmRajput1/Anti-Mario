@@ -7,6 +7,18 @@
 atlas = ExtResource("1_pbylh")
 region = Rect2(595, 144, 35, 36)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_2m4rv"]
+atlas = ExtResource("1_pbylh")
+region = Rect2(560, 144, 35, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3citm"]
+atlas = ExtResource("1_pbylh")
+region = Rect2(630, 144, 35, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uwpc6"]
+atlas = ExtResource("1_pbylh")
+region = Rect2(665, 144, 35, 36)
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_s4n1h"]
 animations = [{
 "frames": [{
@@ -14,8 +26,22 @@ animations = [{
 "texture": SubResource("AtlasTexture_paxfc")
 }],
 "loop": 1,
-"name": &"default",
+"name": &"ideal",
 "speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2m4rv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3citm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uwpc6")
+}],
+"loop": 1,
+"name": &"walk",
+"speed": 5.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3vsxv"]
@@ -28,8 +54,8 @@ script = ExtResource("1_2m4rv")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1892929117]
 position = Vector2(-2, -3)
 sprite_frames = SubResource("SpriteFrames_s4n1h")
-autoplay = "default"
-frame_progress = 0.26490423
+animation = &"walk"
+autoplay = "ideal"
 flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=288209723]
