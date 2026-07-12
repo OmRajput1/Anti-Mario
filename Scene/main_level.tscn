@@ -260,7 +260,7 @@ position = Vector2(2338, -13)
 [node name="projectile" parent="Node2D" unique_id=1510969344 instance=ExtResource("1_ll3eg")]
 
 [node name="Bouser" parent="Node2D" unique_id=977466504 instance=ExtResource("1_bw3m6")]
-position = Vector2(-2492, 60)
+position = Vector2(-2470, 56)
 collision_layer = 3
 
 [node name="Camera2D" type="Camera2D" parent="Node2D/Bouser" unique_id=330444720]
