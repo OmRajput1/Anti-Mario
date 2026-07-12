@@ -887,6 +887,3 @@ autoplay = &"RESET"
 
 [node name="lavarod4" parent="." unique_id=1431257659 instance=ExtResource("7_orc0r")]
 position = Vector2(1944, -56)
-
-[node name="lavarod5" parent="." unique_id=341882926 instance=ExtResource("7_orc0r")]
-position = Vector2(64, -4)
