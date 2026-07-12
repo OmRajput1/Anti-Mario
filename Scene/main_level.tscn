@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://b57b4hm6s6n7j"]
 
 [ext_resource type="PackedScene" uid="uid://i8vaf5dabevh" path="res://Scene/bouser.tscn" id="1_bw3m6"]
+[ext_resource type="PackedScene" uid="uid://ihsoxjleplae" path="res://Scene/projectile.tscn" id="1_ll3eg"]
 [ext_resource type="PackedScene" uid="uid://di8pi55vchdx" path="res://Scene/background.tscn" id="2_1uui5"]
 [ext_resource type="PackedScene" uid="uid://dqjne18ihwaqe" path="res://Scene/tile_map.tscn" id="2_bhu08"]
-[ext_resource type="PackedScene" path="res://Scene/projectile.tscn" id="2_ll3eg"]
 [ext_resource type="PackedScene" uid="uid://bf5nbgvyklbt5" path="res://Scene/world_border.tscn" id="3_05as6"]
 [ext_resource type="PackedScene" uid="uid://dsewkh7dn1bsc" path="res://Scene/lava.tscn" id="5_2xk1g"]
 [ext_resource type="AudioStream" uid="uid://wbm2gua5k0l" path="res://Assets/Super Mario Bros (NES) Music - Hurried Castle.mp3" id="6_uy40e"]
@@ -94,10 +94,12 @@ _data = {
 light_mask = 513
 visibility_layer = 513
 
-[node name="Node2D" type="Node2D" parent="." unique_id=2005762623]
+[node name="Node2D" type="Node2D" parent="." unique_id=2028821618]
+position = Vector2(-138, 40)
+
+[node name="projectile" parent="Node2D" unique_id=1510969344 instance=ExtResource("1_ll3eg")]
 
 [node name="Bouser" parent="Node2D" unique_id=977466504 instance=ExtResource("1_bw3m6")]
-position = Vector2(-138, 40)
 collision_layer = 3
 
 [node name="Camera2D" type="Camera2D" parent="Node2D/Bouser" unique_id=330444720]
@@ -105,8 +107,6 @@ position = Vector2(76, -24)
 zoom = Vector2(3.2, 3.2)
 limit_bottom = 97
 position_smoothing_enabled = true
-
-[node name="projectile" parent="Node2D" unique_id=1510969344 instance=ExtResource("2_ll3eg")]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1249699064]
 position = Vector2(-30, 81)
@@ -887,3 +887,6 @@ autoplay = &"RESET"
 
 [node name="lavarod4" parent="." unique_id=1431257659 instance=ExtResource("7_orc0r")]
 position = Vector2(1944, -56)
+
+[node name="lavarod5" parent="." unique_id=341882926 instance=ExtResource("7_orc0r")]
+position = Vector2(64, -4)
